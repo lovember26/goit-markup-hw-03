@@ -43,10 +43,9 @@ ul {
 .nav-header.list {
   display: flex;
   margin-left: 93px;
+  gap: 50px;
 }
-.nav-header-item + .nav-header-item {
-  margin-left: 50px;
-}
+
 .contacts.list {
   display: flex;
   margin-left: auto;
