@@ -146,13 +146,12 @@ ul {
 }
 .features-wrapper {
   display: flex;
+  gap: 30px;
 }
 .features-item {
   flex-basis: calc((100% - 90px) / 4);
 }
-.features-item + .features-item {
-  margin-left: 30px;
-}
+
 .features-heading {
   margin-bottom: 10px;
   font-weight: 700;
@@ -172,13 +171,12 @@ ul {
 }
 .activity-wrap {
   display: flex;
+  gap: 30px;
 }
 .activity-item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.activity-item + .activity-item {
-  margin-left: 30px;
-}
+
 .activity-item img {
   display: block;
 }
@@ -204,10 +202,9 @@ ul {
 }
 .team-wrapper {
   display: flex;
+  gap: 30px;
 }
-.team-item + .team-item {
-  margin-left: 30px;
-}
+
 .team-item img {
   display: block;
 }
