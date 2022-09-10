@@ -121,6 +121,7 @@ ul {
   text-transform: uppercase;
 }
 .hero-btn {
+  padding: 10px 32px;
   background-color: var(--accent-color);
   color: #fff;
   font-family: inherit;
@@ -129,6 +130,8 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-btn:active,
 .hero-btn:hover,
