@@ -229,7 +229,9 @@ ul {
   background-color: #2f303a;
   padding: 60px 0;
 }
-
+.logo.footer {
+  padding: 0;
+}
 address {
   margin-top: 20px;
 }
